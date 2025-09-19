@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem; /* spacing between fields */
+}
+
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #0f172a;
+}
+
+.budget-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.budget-form label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.budget-input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+h3 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.btn {
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background: #0284c7;
+}
+
+.success {
+  color: #10b981;
+  font-weight: bold;
+  text-align: center;
+}
+
+.back-link {
+  display: inline-block;
+  background: #0ea5e9;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.back-link:hover {
+  background: #0284c7;
+}
